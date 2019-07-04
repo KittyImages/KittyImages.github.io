@@ -2,24 +2,6 @@ let keywords = ["cats", "cat", "kitty", "kitten", "Siamese"];
 let tags = 'cats,cat,kitty,kitten,siamese'
 
 function getImage(){
-    // let keyword = keywords[Math.floor(Math.random()*keywords.length)];
-
-    // $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?", 
-    // {
-    //     tags: keyword,
-    //     tagmode: "any",
-    //     format: "json"
-    // },
-    // function(data) {
-    //     let rnd = Math.floor(Math.random() * data.items.length);
-    //     let src = data.items[rnd]['media']['m'].replace("_m", "_b");
-    //     $('#catImg').attr("src", src);
-    // });
-
-}
-
-
-function getImage(){
     var settings = {
         "async": true,
         "crossDomain": true,
