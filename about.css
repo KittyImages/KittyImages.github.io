@@ -18,6 +18,7 @@ ul{
 }
 
 .container {
+  margin: 25px;
   font-family: 'Luckiest Guy', cursive;
   font-size: 24px;
 }

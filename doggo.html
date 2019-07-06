@@ -2,14 +2,14 @@
 <html>
 
 <head>
-  <title>😺😺😺</title>
+  <title>🐶🐶🐶</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="js/imagesGrabber.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Barriecito&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="doggo.css">
   <link rel='shortcut icon' type='image/x-icon' href='favicon.png' />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -32,11 +32,11 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto mx-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Kitties<span class="sr-only">(current)</span></a>
-        </li>
         <li class="nav-item">
-          <a class="nav-link" href="doggo.html">Doggos</a>
+          <a class="nav-link" href="index.html">Kitties</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Doggos<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="catfacts.html">Cat Facts!</a>
@@ -45,27 +45,20 @@
           <a class="nav-link" href="about.html">About</a>
         </li>
       </ul>
+
     </div>
   </nav>
 
-
   <div class="text">
-    Hey, here are some kitty images to cheer you up!
+    You love more animals? I got doggos for you too!
   </div>
 
-  <div class="container">
-    You can select a specific breed now (Would suggest the Siamese :p)!
-    <select id="breeds" class="form-control">
-      <option value="all">All</option>
-    </select>
-  </div>
-
-  <div class='cats'>
-    <img id='catImg' src="images/kia.jpg">
+  <div class='doggos'>
+    <img id='doggoImg' src="images/doggo.jpg">
   </div>
 
   <div class='main'>
-    <button onclick="getKittyImage()" id="kittybtn" type="button">Get a new kitty image 😺!</button>
+    <button onclick="getDoggoImage()" id="doggobtn" type="button">Get a new doggo image 🐶!</button>
   </div>
 
 </body>
