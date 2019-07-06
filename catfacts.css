@@ -1,6 +1,5 @@
 body {
-  /* background-image: url(images/background.jpg); */
-  background-color: red;
+  background-image: url(images/catbackground.jpg);
 }
 
 html, body {
@@ -21,8 +20,7 @@ ul{
   text-align: center;
   background-color: white;
   white-space: nowrap;
-  margin: 1em 0;
-  height: 125px;
+  height: 150px;
   width: 100%;
 }
 
