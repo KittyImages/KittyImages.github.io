@@ -47,7 +47,7 @@ function getFacts() {
 
   if (facts != null) {
     let randomFact = facts[Math.floor(Math.random() * facts.length)];
-    document.getElementById("facts").innerHTML = randomFact.text;
+    document.getElementById("catfact").innerHTML = randomFact.text;
     return;
   }
 
@@ -63,7 +63,7 @@ function getFacts() {
   $.ajax(settings).done(function(response) {
     facts = response.all;
     let randomFact = facts[Math.floor(Math.random() * facts.length)];
-    document.getElementById("facts").innerHTML = randomFact.text;
+    document.getElementById("catfact").innerHTML = randomFact.text;
   });
 }
 
@@ -88,6 +88,3 @@ function populateSelection() {
     }
   });
 }
-
-
-populateSelection();

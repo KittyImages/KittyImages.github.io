@@ -1,5 +1,5 @@
 body {
-  background-image: url(images/catbackground.jpg);
+  background-image: url(../images/catbackground.jpg);
 }
 
 html, body {
@@ -7,22 +7,13 @@ html, body {
   padding: 0;
 }
 
-.main, .text, .container {
-  text-align: center;
-}
-
-ul{
+ul {
   font-family: 'Luckiest Guy', cursive;
   font-size: 20px;
 }
 
-.container {
-  font-family: 'Luckiest Guy', cursive;
-  font-size: 24px;
-}
-
-select{
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+.main, .text {
+  text-align: center;
 }
 
 .logo {
@@ -51,9 +42,9 @@ select{
   font-family: 'Luckiest Guy', cursive;
 }
 
-#kittybtn {
+#catfactbtn {
   background-color: white;
-  border: 2px solid #ff6184;
+  border: 2px solid #fe8566;
   color: black;
   border-radius: 28px;
   padding: 16px 32px;
@@ -68,24 +59,23 @@ select{
   cursor: pointer;
 }
 
-#kittybtn:hover {
-  background-color: #ff6184;
+#catfactbtn:hover {
+  background-color: #fe8566;
   color: white;
 }
 
-#breeds {
-  width: 150px;
-  display: block;
-  margin: 0 auto;
-}
-
-.cats {
+.facts {
+  font-size: 36px;
+  font-family: 'Roboto Condensed', sans-serif;
   text-align: center;
   margin: 5px;
+  /* -webkit-text-stroke: 1px white; */
 }
 
-#catImg {
-  border: 2px solid #000;
-  max-height: 550px;
-  max-width: 550px;
+#catfact{
+  background-color: rgb(255, 255, 255, 0.7);
+  border: 2px solid #EBDA9A;
+  color: black;
+  border-radius: 10px;
+  display:inline-block;
 }

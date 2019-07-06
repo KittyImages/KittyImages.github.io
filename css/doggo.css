@@ -1,5 +1,5 @@
 body {
-  background-image: url(images/aboutbackground.jpg);
+  background-image: url(../images/doggobackground.jpg);
 }
 
 html, body {
@@ -7,23 +7,13 @@ html, body {
   padding: 0;
 }
 
-.main, .text, .container {
-  text-align: center;
-}
-
 ul{
   font-family: 'Luckiest Guy', cursive;
   font-size: 20px;
 }
 
-.container {
-  margin: 25px;
-  font-family: 'Luckiest Guy', cursive;
-  font-size: 24px;
-}
-
-select{
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+.main, .text {
+  text-align: center;
 }
 
 .logo {
@@ -34,13 +24,13 @@ select{
   width: 100%;
 }
 
-.logoHelper {
+.logoHelper{
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
 
-#logoImg {
+#logoImg{
   vertical-align: middle;
 }
 
@@ -52,9 +42,9 @@ select{
   font-family: 'Luckiest Guy', cursive;
 }
 
-#kittybtn {
+#doggobtn {
   background-color: white;
-  border: 2px solid #ff6184;
+  border: 2px solid #67c8cf;
   color: black;
   border-radius: 28px;
   padding: 16px 32px;
@@ -69,24 +59,18 @@ select{
   cursor: pointer;
 }
 
-#kittybtn:hover {
-  background-color: #ff6184;
+#doggobtn:hover {
+  background-color: #67c8cf;
   color: white;
 }
 
-#breeds {
-  width: 150px;
-  display: block;
-  margin: 0 auto;
-}
-
-.cats {
+.doggos {
   text-align: center;
   margin: 5px;
 }
 
-#catImg {
+#doggoImg {
   border: 2px solid #000;
   max-height: 550px;
-  max-width: 550px;
+  max-width: 100%;
 }

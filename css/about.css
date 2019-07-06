@@ -1,5 +1,5 @@
 body {
-  background-image: url(images/catbackground.jpg);
+  background-image: url(../images/aboutbackground.jpg);
 }
 
 html, body {
@@ -7,13 +7,27 @@ html, body {
   padding: 0;
 }
 
+.main, .text, .container {
+  text-align: center;
+}
+
 ul{
   font-family: 'Luckiest Guy', cursive;
   font-size: 20px;
 }
 
-.main, .text {
-  text-align: center;
+.container {
+  background-color: rgb(255, 255, 255, 0.5);
+  border: 2px solid red;
+  color: black;
+  border-radius: 10px;
+  margin: 25px;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 36px;
+}
+
+select{
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
 .logo {
@@ -42,7 +56,7 @@ ul{
   font-family: 'Luckiest Guy', cursive;
 }
 
-#catfactbtn {
+#kittybtn {
   background-color: white;
   border: 2px solid #ff6184;
   color: black;
@@ -59,14 +73,24 @@ ul{
   cursor: pointer;
 }
 
-#catfactbtn:hover {
+#kittybtn:hover {
   background-color: #ff6184;
   color: white;
 }
 
-.facts {
-  font-size: 36px;
-  font-family: 'Roboto Condensed', sans-serif;
+#breeds {
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+.cats {
   text-align: center;
   margin: 5px;
+}
+
+#catImg {
+  border: 2px solid #000;
+  max-height: 550px;
+  max-width: 550px;
 }
